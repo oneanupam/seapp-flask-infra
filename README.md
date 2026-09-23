@@ -13,7 +13,7 @@ Resources in this repository are meant for use with Terraform 1.3.6 (Check the v
 -   [terraform-provider-google-beta] plugin = 4.52.0
 
 ### Permissions Requirement
-In order to execute these templates you must have a Service Account with the following roles. Access can be more fine-grained to follow Principle of least privilege (PoLP).
+In order to execute these templates you must have a Service Account with the following roles. Access can be more fine-grained to follow Principle of least privilege (PoLP). This principle says that an account should have only those privileges essential to perform its unique function.
 
 - `roles/resourcemanager.projectOwner` on all the projects where you want to house your resources using service account's email.
 - `roles/storage.admin` on the project housing terraform state files.
